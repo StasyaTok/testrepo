@@ -1,6 +1,6 @@
 import re
-f = input ('Введите строку: ');
-a = re.findall(r"\bт\w*\b",f)
-b = re.findall(r"\bТ\w*\b",f)
+f = input ('Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ');
+a = re.findall(r"\bС‚\w*\b",f)
+b = re.findall(r"\bРў\w*\b",f)
 c = len(a) + len(b)
 print(c)
